@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 60px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul a {
+    color: #333;
+    font-weight: bold;
+}
+
+
+.bienvenida {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 70px 10%;
+}
+
+.bienvenida article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bienvenida h1 {
+    font-size: 45px;
+}
+
+.bienvenida p {
+    font-size: 18px;
+}
+
+.bienvenida a {
+    width: fit-content;
+    padding: 12px 25px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.bienvenida > img {
+    width: 100%;
+}
+
+.destacados {
+    padding: 60px 8%;
+}
+
+.destacados h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.producto {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.producto img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.producto h3 {
+    margin-top: 15px;
+}
+
+.producto p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.promocion {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.promocion article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.promocion a {
+    padding: 12px 25px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 50px 8%;
+    background-color: #222;
+    color: white;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+footer a {
+    color: white;
+}
