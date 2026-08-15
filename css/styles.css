@@ -1,21 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: white;
-}
-
-a {
-    text-decoration: none;
-}
+/* =========================
+   HEADER
+========================= */
 
 header {
-    padding: 20px 60px;
+    padding: 25px 80px;
     background-color: white;
 }
 
@@ -26,119 +14,167 @@ nav {
 }
 
 nav img {
-    width: 150px;
+    width: 180px;
 }
 
 nav ul {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     list-style: none;
 }
 
 nav ul a {
     color: #333;
     font-weight: bold;
+    font-size: 18px;
 }
 
 
+/* =========================
+   BIENVENIDA
+========================= */
+
 .bienvenida {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 50px;
-    padding: 70px 10%;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+
+    padding: 55px 10%;
+
+    background-color: #f5f9ff;
 }
 
 .bienvenida article {
     display: flex;
-    flex-direction:column;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+
+    max-width: 750px;
 }
 
 .bienvenida h1 {
-    font-size: 45px;
+    font-size: 42px;
 }
 
 .bienvenida p {
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .bienvenida a {
     width: fit-content;
-    padding: 12px 25px;
-    background-color: #333;
+    padding: 13px 28px;
+
+    background-color: #1877c9;
     color: white;
+
     border-radius: 5px;
 }
 
-.bienvenida  img {
-    width: 500px;
-    height: 400px;
+.bienvenida img {
+    width: 450px;
+    height: 300px;
+    object-fit: contain;
 }
 
+
+/* =========================
+   PRODUCTOS DESTACADOS
+========================= */
+
 .destacados {
-    padding: 60px 8%;
+    padding: 45px 7%;
 }
 
 .destacados h2 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 .galeria {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 20px;
 }
 
 .producto {
-    padding: 20px;
+    padding: 12px;
     text-align: center;
+
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 8px;
+
+    background-color: white;
 }
 
 .producto img {
     width: 100%;
-    height: 200px;
+    height: 260px;
     object-fit: contain;
 }
 
 .producto h3 {
-    margin-top: 15px;
+    margin-top: 8px;
+    font-size: 18px;
 }
 
 .producto p {
-    margin-top: 10px;
+    margin-top: 8px;
     font-weight: bold;
+    font-size: 17px;
 }
 
+
+/* =========================
+   PROMOCIÓN
+========================= */
+
 .promocion {
-    padding: 70px 10%;
+    padding: 55px 10%;
     text-align: center;
+    background-color: #fff5f8;
 }
 
 .promocion article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 18px;
+}
+
+.promocion h2 {
+    font-size: 30px;
+}
+
+.promocion p {
+    font-size: 17px;
 }
 
 .promocion a {
-    padding: 12px 25px;
-    background-color: #333;
+    padding: 13px 28px;
+
+    background-color: #e91e63;
     color: white;
+
     border-radius: 5px;
 }
 
+
+/* =========================
+   FOOTER
+========================= */
 
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    padding: 50px 8%;
-    background-color: #222;
+
+    padding: 45px 8%;
+
+    background-color: #1877c9;
     color: white;
 }
 
@@ -146,6 +182,15 @@ footer section {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+footer p,
+footer a {
+    font-size: 14px;
 }
 
 footer a {
