@@ -51,7 +51,7 @@ nav ul a {
 
 .bienvenida article {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     gap: 20px;
 }
 
@@ -71,8 +71,9 @@ nav ul a {
     border-radius: 5px;
 }
 
-.bienvenida > img {
-    width: 100%;
+.bienvenida  img {
+    width: 500px;
+    height: 400px;
 }
 
 .destacados {
@@ -87,7 +88,7 @@ nav ul a {
 .galeria {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 15px;
 }
 
 .producto {
