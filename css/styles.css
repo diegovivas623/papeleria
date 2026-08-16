@@ -1,7 +1,3 @@
-/* =========================
-   HEADER
-========================= */
-
 header {
     padding: 25px 80px;
     background-color: white;
@@ -27,12 +23,9 @@ nav ul a {
     color: #333;
     font-weight: bold;
     font-size: 18px;
+    text-decoration: none;
 }
 
-
-/* =========================
-   BIENVENIDA
-========================= */
 
 .bienvenida {
     display: grid;
@@ -66,11 +59,13 @@ nav ul a {
 .bienvenida a {
     width: fit-content;
     padding: 13px 28px;
+    text-decoration: none;
 
     background-color: #1877c9;
     color: white;
 
     border-radius: 5px;
+    
 }
 
 .bienvenida img {
@@ -80,9 +75,6 @@ nav ul a {
 }
 
 
-/* =========================
-   PRODUCTOS DESTACADOS
-========================= */
 
 .destacados {
     padding: 45px 7%;
@@ -128,10 +120,6 @@ nav ul a {
 }
 
 
-/* =========================
-   PROMOCIÓN
-========================= */
-
 .promocion {
     padding: 55px 10%;
     text-align: center;
@@ -155,17 +143,13 @@ nav ul a {
 
 .promocion a {
     padding: 13px 28px;
+    text-decoration: none;
 
     background-color: #e91e63;
     color: white;
 
     border-radius: 5px;
 }
-
-
-/* =========================
-   FOOTER
-========================= */
 
 footer {
     display: grid;
@@ -191,6 +175,8 @@ footer h3 {
 footer p,
 footer a {
     font-size: 14px;
+    text-decoration: none;
+
 }
 
 footer a {
