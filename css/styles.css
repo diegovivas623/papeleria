@@ -1,5 +1,5 @@
 header {
-    padding: 25px 80px;
+    padding: 12px 50px;
     background-color: white;
 }
 
@@ -10,12 +10,12 @@ nav {
 }
 
 nav img {
-    width: 180px;
+    width: 150px;
 }
 
 nav ul {
     display: flex;
-    gap: 50px;
+    gap: 35px;
     list-style: none;
 }
 
@@ -26,6 +26,13 @@ nav ul a {
     text-decoration: none;
 }
 
+.marca{
+    padding: 10px 30px;
+    background-color: #f5c6d6;
+    color: #1877c9;
+    border-radius: 8px;
+    font-size: 24px;
+}
 
 .bienvenida {
     display: grid;
@@ -33,7 +40,7 @@ nav ul a {
     justify-items: center;
     text-align: center;
 
-    padding: 55px 10%;
+    padding: 30px 10%;
 
     background-color: #f5f9ff;
 }
@@ -42,18 +49,17 @@ nav ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 18px;
-
+    gap: 10px;
     max-width: 750px;
 }
 
 .bienvenida h1 {
-    font-size: 42px;
+    font-size: 32px;
 }
 
 .bienvenida p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 15px;
 }
 
 .bienvenida a {
@@ -151,13 +157,51 @@ nav ul a {
     border-radius: 5px;
 }
 
+
+/*contacto*/
+.contacto{
+    padding: 45px 10%;
+    background-color: #f5f9ff;
+    text-align: center;
+}
+
+.contacto h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contacto > p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.informacion-contacto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.informacion-contacto article{
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.informacion-contacto h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.informacion-contacto p{
+    font-size: 14px;
+}
+
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-
-    padding: 45px 8%;
-
+    padding: 40px 8%;
     background-color: #1877c9;
     color: white;
 }
@@ -182,3 +226,4 @@ footer a {
 footer a {
     color: white;
 }
+
