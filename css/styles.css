@@ -175,6 +175,67 @@ nav ul a {
     font-size: 17px;
 }
 
+.producto-pendiente span {
+    display: grid;
+    place-items: center;
+    height: 260px;
+    color: #777;
+    background-color: #f5f9ff;
+    border: 2px dashed #f5c6d6;
+    border-radius: 5px;
+}
+
+.carrusel-productos {
+    padding: 45px 7%;
+    text-align: center;
+    background-color: #fff5f8;
+}
+
+.carrusel-productos h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.carrusel-ventana {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.carrusel-pista {
+    display: flex;
+    width: max-content;
+    gap: 20px;
+    animation: mover-carrusel 22s linear infinite;
+}
+
+.carrusel-pista:hover {
+    animation-play-state: paused;
+}
+
+.carrusel-pista article {
+    width: 230px;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.carrusel-pista img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+@keyframes mover-carrusel {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-50% - 10px));
+    }
+}
+
 .mas-productos {
     background-color: #f5f9ff;
     text-align: center;
