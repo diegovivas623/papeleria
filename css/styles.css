@@ -90,6 +90,41 @@ nav ul a {
     object-fit: contain;
 }
 
+.quienes-somos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 35px;
+    padding: 45px 10%;
+}
+
+.quienes-somos article {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.quienes-somos h2,
+.quienes-somos h3 {
+    color: #1877c9;
+    text-align: center;
+}
+
+.quienes-somos p,
+.lista-productos li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.lista-productos ul {
+    margin: 20px 0 0;
+    padding-left: 25px;
+}
+
+.lista-productos li {
+    margin-bottom: 8px;
+}
+
 
 
 .destacados {
@@ -122,6 +157,11 @@ nav ul a {
     width: 100%;
     height: 260px;
     object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.producto:hover img {
+    transform: scale(1.06);
 }
 
 .producto h3 {
@@ -133,6 +173,51 @@ nav ul a {
     margin-top: 8px;
     font-weight: bold;
     font-size: 17px;
+}
+
+.mas-productos {
+    background-color: #f5f9ff;
+    text-align: center;
+}
+
+.enlace-catalogo {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 13px 28px;
+    text-decoration: none;
+    background-color: #1877c9;
+    color: white;
+    border-radius: 5px;
+}
+
+.video-presentacion {
+    padding: 45px 10%;
+    text-align: center;
+}
+
+.video-presentacion article {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.video-presentacion h2 {
+    font-size: 30px;
+}
+
+.video-presentacion p {
+    font-size: 17px;
+}
+
+.video-presentacion video {
+    width: 100%;
+    min-height: 360px;
+    margin-top: 20px;
+    background-color: #f5f9ff;
+    border: 2px solid #f5c6d6;
+    border-radius: 8px;
 }
 
 
@@ -236,4 +321,3 @@ footer a {
 footer a {
     color: white;
 }
-
