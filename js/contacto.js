@@ -11,3 +11,4 @@ formulario.addEventListener("submit", function (evento) {
 
     window.open(enlace, "_blank");
 });
+

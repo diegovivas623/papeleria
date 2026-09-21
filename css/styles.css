@@ -500,6 +500,52 @@ nav ul a:hover {
     font-size: 14px;
 }
 
+.horarios {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.horarios h3 {
+    color: #1877c9;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.horarios p {
+    margin-bottom: 20px;
+}
+
+.horarios table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 16px rgba(24, 119, 201, 0.08);
+}
+
+.horarios th {
+    padding: 14px;
+    color: white;
+    background-color: #1877c9;
+}
+
+.horarios td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.horarios tr:last-child td {
+    border-bottom: none;
+}
+
+.horarios tr:hover {
+    background-color: #fff5f8;
+}
+
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
