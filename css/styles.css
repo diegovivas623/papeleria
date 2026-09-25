@@ -503,6 +503,7 @@ nav ul a:hover {
 .horarios {
     margin-top: 30px;
     text-align: center;
+    grid-column: 1/-1;
 }
 
 .horarios h3 {
@@ -544,6 +545,75 @@ nav ul a:hover {
 
 .horarios tr:hover {
     background-color: #fff5f8;
+}
+
+.mision-vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 20px 10% 45px;
+    background-color: #f5f9ff;
+}
+
+.mision-vision article {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 5px 16px rgba(24, 119, 201, 0.08);
+}
+
+.mision-vision h2 {
+    color: #1877c9;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.mision-vision p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.valores {
+    padding: 45px 7%;
+    text-align: center;
+}
+
+.valores > h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.lista-valores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.lista-valores article {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 5px 16px rgba(24, 119, 201, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lista-valores article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(24, 119, 201, 0.16);
+}
+
+.lista-valores h3 {
+    color: #1877c9;
+    font-size: 19px;
+    margin-top: 0;
+}
+
+.lista-valores p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 footer {
